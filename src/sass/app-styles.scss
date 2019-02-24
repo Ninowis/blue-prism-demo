@@ -1,0 +1,29 @@
+@reset-global pc;
+
+// Config
+@import '_config/breakpoints',
+        '_config/colours',
+        '_config/sizes',
+        '_config/vendors';
+
+// Core styles
+@import '_core/base',
+        '_core/fonts',
+        '_core/typography';
+
+// Vendors
+//@import '../node_modules/<module_name>';
+
+// Atomic Design
+@import 'atoms/buttons',
+        'atoms/lists';
+
+@import 'molecules/navigation';
+
+@import 'organisms/footer',
+        'organisms/header';
+
+@import 'templates/default-page';
+
+@import 'pages/home';
+
