@@ -15,11 +15,7 @@
 
   .app-logo {
     display: contents;
-
-    img {
-      max-height: 60%;
-      width: auto;
-    }
+    svg { height: 3rem; }
   }
 
   .app-title {
@@ -41,15 +37,23 @@
   }
 
   @include breakpoint(mobileonly) {
-    .app-logo img { height: 1.5rem; }
+    .app-logo {
+      span { width: 2.5rem; }
+      svg { width: 12rem; }
+      #logotype { display: none; }
+    }
 		.app-title { display: none; }
   }
   
   @include breakpoint(phablet) {
-    .app-logo img { height: 1.7rem; }
-	}
+    .app-logo svg { height: 1.4rem; }
+  }
+
   @include breakpoint(tablet) {
-    .app-logo img { height: auto; }
-		.app-title { font-size: 1.5rem; }
+    .app-logo svg { height: 1.7rem; }
+		.app-title {
+      font-size: 1.5rem;
+      margin-top: -2px;
+    }
 	}
 }

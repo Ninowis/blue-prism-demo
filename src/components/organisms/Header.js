@@ -1,11 +1,13 @@
 import React from 'react'
 import Button from '../atoms/Button'
 import Navigation from '../molecules/Navigation'
+import InlineSVG from 'svg-inline-react'
+import logo from '../../../public/images/blueprism-logo.svg'
 
 const Header = () => (
   <header className="header">
     <a className="app-logo" href="https://blueprism.com/" title="Visit Blue Prism website">
-      <img src="./images/blueprism-logo.svg"/>
+      <InlineSVG src={logo} element='span'/>
     </a>
     <span className="app-title">Design Challenge</span>
     <Navigation />
