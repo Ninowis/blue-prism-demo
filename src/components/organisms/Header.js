@@ -3,6 +3,7 @@ import Button from '../atoms/Button'
 import Navigation from '../molecules/Navigation'
 import InlineSVG from 'svg-inline-react'
 import logo from '../../svg/blueprism-logo.svg'
+import github from '../../svg/github-logo.svg'
 
 const Header = () => (
   <header className="header">
@@ -12,7 +13,9 @@ const Header = () => (
     <span className="app-title">Design Challenge</span>
     <Navigation />
     <div className="options">
-      <Button href="https://github.com/Ninowis/react-alt-boilerplate" label="Fork on GitHub"/>
+      <Button href="https://github.com/Ninowis/react-alt-boilerplate" label="Fork on GitHub">
+        <InlineSVG src={github}/>
+      </Button>
     </div>
   </header>
 )

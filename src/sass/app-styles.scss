@@ -16,7 +16,8 @@
 
 // Atomic Design
 @import 'atoms/buttons',
-        'atoms/lists';
+        'atoms/lists',
+        'atoms/loading-graphic';
 
 @import 'molecules/navigation';
 
@@ -25,5 +26,6 @@
 
 @import 'templates/default-page';
 
-@import 'pages/home';
+@import 'pages/home',
+        'pages/demo';
 

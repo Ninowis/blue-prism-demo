@@ -23,4 +23,10 @@
   .page-content {
     margin: 2rem auto 4rem;
   }
+
+  @include breakpoint(mobileonly) {
+    .page-header {
+      padding: 4rem 2rem;
+    }
+  }
 }

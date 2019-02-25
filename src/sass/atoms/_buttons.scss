@@ -21,4 +21,12 @@ input[type="reset"],
   &:active {
     background: darken($accent-color, 10%);
   }
+
+  i {
+    line-height: 1;
+    vertical-align: middle;
+    margin-right: 0.5rem;
+
+    svg { height: 1rem; }
+  }
 }

@@ -34,6 +34,8 @@
 
   .button {
     padding: .5rem 1rem;
+    span { display: none; }
+    i { margin-right: 0; }
   }
 
   @include breakpoint(mobileonly) {
@@ -50,10 +52,18 @@
   }
 
   @include breakpoint(tablet) {
-    .app-logo svg { height: 1.7rem; }
+    .app-logo svg { height: 1.6rem; }
 		.app-title {
       font-size: 1.5rem;
       margin-top: -2px;
     }
+    .button {
+      i { display: none; }
+      span { display: inline; }
+    }
+  }
+
+  @include breakpoint(laptop) {
+    .app-logo svg { height: 1.7rem; }
 	}
 }

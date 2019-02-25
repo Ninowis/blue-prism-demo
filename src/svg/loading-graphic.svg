@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg  viewBox="0 0 44 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>LoadingGraphic</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g class="" id="Artboard">
+            <g class="" id="LoadingGraphic">
+                <g class="" id="Solution">
+                    <polygon class="" id="Polygon" fill="#1E3667" points="2.27373675e-13 12.8359242 22 25.7025873 2.27373675e-13 38.5692505"></polygon>
+                    <polygon class="" id="Polygon" fill="#33A4E3" points="21.9393102 0.00475533595 43.9393102 12.8714185 21.9393102 25.7380816"></polygon>
+                    <polygon class="" id="Polygon" fill="#77C2E4" points="22.0175196 2.84217094e-14 22.0175196 25.7333263 0.0175196278 12.8666631"></polygon>
+                    <polygon class="" id="Polygon" fill="#0F7DC2" points="43.9393102 38.6047448 21.9393102 25.7380816 43.9393102 12.8714185"></polygon>
+                    <polygon class="" id="Polygon" fill="#B1C8D5" points="22 51.4359136 0 38.5692505 22 25.7025873"></polygon>
+                    <polygon class="" id="Polygon" fill="#D5E3EF" points="21.9217906 51.4406689 21.9217906 25.7073426 43.9217906 38.5740058"></polygon>
+                </g>
+                <g class="" id="modules" transform="translate(10.000000, 12.000000)">
+                    <g class="" id="Cube1" transform="translate(6.000000, 7.000000)">
+                        <polygon class="" id="Polygon" fill="#33A4E3" points="2.27373675e-13 3.40848566 6 6.82513383 2.27373675e-13 10.241782"></polygon>
+                        <polygon class="" id="Path" fill="#0F4B8F" points="5.9930044 0.00670441773 6.00477808 3.37507799e-14 6.00477808 0.0134088355 11.9834482 3.41791091 6.00477808 6.82241299 6.00477808 6.83329634 5.99522192 6.82785466 5.98344824 6.83455908 5.98344824 6.82115025 0.0047780803 3.41664817 5.98344824 0.0121460908 5.98344824 0.00126274464"></polygon>
+                        <polygon class="" id="Polygon" fill="#D5E3EF" points="11.9834482 10.2512072 5.98344824 6.83455908 11.9834482 3.41791091"></polygon>
+                        <polygon class="" id="Polygon" fill="#0F7DC2" points="6 13.6584302 0 10.241782 6 6.82513383"></polygon>
+                        <polygon class="" id="Polygon" fill="#B1C8D5" points="5.97867016 13.6596929 5.97867016 6.82639657 11.9786702 10.2430447"></polygon>
+                    </g>
+                    <g class="" id="Cube2" transform="translate(12.000000, 10.191781)">
+                        <polygon class="" id="Polygon" fill="#0F4B8F" points="2.27373675e-13 3.40848566 6 6.82513383 2.27373675e-13 10.241782"></polygon>
+                        <polygon class="" id="Path" fill="#33A4E3" points="5.9930044 0.00670441773 6.00477808 3.41948692e-14 6.00477808 0.0134088355 11.9834482 3.41791091 6.00477808 6.82241299 6.00477808 6.83329634 5.99522192 6.82785466 5.98344824 6.83455908 5.98344824 6.82115025 0.0047780803 3.41664817 5.98344824 0.0121460908 5.98344824 0.00126274464"></polygon>
+                        <polygon class="" id="Polygon" fill="#77C2E4" points="11.9834482 10.2512072 5.98344824 6.83455908 11.9834482 3.41791091"></polygon>
+                        <polygon class="" id="Polygon" fill="#0F7DC2" points="6 13.6584302 0 10.241782 6 6.82513383"></polygon>
+                        <polygon class="" id="Polygon" fill="#33A4E3" points="5.97867016 13.6596929 5.97867016 6.82639657 11.9786702 10.2430447"></polygon>
+                    </g>
+                    <g class="" id="Cube3" transform="translate(0.000000, 10.191781)">
+                        <polygon class="" id="Polygon" fill="#33A4E3" points="2.27373675e-13 3.40848566 6 6.82513383 2.27373675e-13 10.241782"></polygon>
+                        <polygon class="" id="Path" fill="#77C2E4" points="5.9930044 0.00670441773 6.00477808 3.41948692e-14 6.00477808 0.0134088355 11.9834482 3.41791091 6.00477808 6.82241299 6.00477808 6.83329634 5.99522192 6.82785466 5.98344824 6.83455908 5.98344824 6.82115025 0.0047780803 3.41664817 5.98344824 0.0121460908 5.98344824 0.00126274464"></polygon>
+                        <polygon class="" id="Polygon" fill="#D5E3EF" points="11.9834482 10.2512072 5.98344824 6.83455908 11.9834482 3.41791091"></polygon>
+                        <polygon class="" id="Polygon" fill="#0F4B8F" points="6 13.6584302 0 10.241782 6 6.82513383"></polygon>
+                        <polygon class="" id="Polygon" fill="#33A4E3" points="5.97867016 13.6596929 5.97867016 6.82639657 11.9786702 10.2430447"></polygon>
+                    </g>
+                    <g class="" id="Cube4" transform="translate(6.000000, 0.000000)">
+                        <polygon class="" id="Polygon" fill="#33A4E3" points="2.27373675e-13 3.40848566 6 6.82513383 2.27373675e-13 10.241782"></polygon>
+                        <polygon class="" id="Path" fill="#0F4B8F" points="5.9930044 0.00670441773 6.00477808 3.37507799e-14 6.00477808 0.0134088355 11.9834482 3.41791091 6.00477808 6.82241299 6.00477808 6.83329634 5.99522192 6.82785466 5.98344824 6.83455908 5.98344824 6.82115025 0.0047780803 3.41664817 5.98344824 0.0121460908 5.98344824 0.00126274464"></polygon>
+                        <polygon class="" id="Polygon" fill="#D5E3EF" points="11.9834482 10.2512072 5.98344824 6.83455908 11.9834482 3.41791091"></polygon>
+                        <polygon class="" id="Polygon" fill="#0F7DC2" points="6 13.6584302 0 10.241782 6 6.82513383"></polygon>
+                        <polygon class="" id="Polygon" fill="#B1C8D5" points="5.97867016 13.6596929 5.97867016 6.82639657 11.9786702 10.2430447"></polygon>
+                    </g>
+                </g>
+                <g class="" id="Package" transform="translate(10.000000, 11.901178)">
+                    <polygon class="" id="LeftTop" fill="#0F7DC2" points="-1.59872116e-14 6.80756197 11.95 13.85 0.0331035113 20.7680579"></polygon>
+                    <polygon class="" id="LeftBottom" fill="#0F7DC2" points="11.95 27.6962612 0.0331035113 20.7680579 11.95 13.832148"></polygon>
+                    <polygon class="" id="RightBottom" fill="#77C2E4" points="11.95 27.6962612 11.95 13.832148 23.9904438 20.85"></polygon>
+                    <polygon class="" id="RightTop" fill="#77C2E4" points="24 20.9 11.95 13.85 23.9834482 6.80756197"></polygon>
+                    <polygon class="" id="TopRight" fill="#D5E3EF" points="12 -8.8817842e-16 23.9834482 6.80756197 12 13.8424153"></polygon>
+                    <polygon class="" id="TopLeft" fill="#D5E3EF" points="12 2.30926389e-14 12 13.8481306 0.0047780803 6.80756197"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
