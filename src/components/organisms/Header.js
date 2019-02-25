@@ -4,10 +4,10 @@ import Navigation from '../molecules/Navigation'
 
 const Header = () => (
   <header className="header">
-    <a className="app-logo" href="https://reactjs.org/" title="Visit React website">
-      <img src="./images/react-logo.svg"/>
+    <a className="app-logo" href="https://blueprism.com/" title="Visit Blue Prism website">
+      <img src="./images/blueprism-logo.svg"/>
     </a>
-    <span className="app-title">React Alt Boilerplate</span>
+    <span className="app-title">Design Challenge</span>
     <Navigation />
     <div className="options">
       <Button href="https://github.com/Ninowis/react-alt-boilerplate" label="Fork on GitHub"/>

@@ -7,11 +7,13 @@
     display: flex;
     height: 100%;
     align-items: center;
+    padding-left: 0;
   }
 
   li {
     list-style-type: none;
     height: 100%;
+    padding-left: 0;
   }
 
   a {
@@ -30,13 +32,15 @@
     &:focus,
     &:active,
     &.selected {
-      background: $accent-bg;
+      background: #f1f1f1;
       color: $accent-color;
       border-bottom: 2px solid $accent-color;
     }
     &.selected {
       background: none;
       cursor: default;
+      color: $light-blue;
+      border-bottom: 2px solid $light-blue;
     }
   }
 }

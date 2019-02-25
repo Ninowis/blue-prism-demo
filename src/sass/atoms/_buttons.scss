@@ -6,7 +6,7 @@ input[type="reset"],
   font-weight: bold;
   line-height: 1.5;
   padding: 1em 2rem;
-  color: $accent-bg;
+  color: white;
   background: $accent-color;
   display: inline-block;
   border: none;
@@ -19,7 +19,6 @@ input[type="reset"],
   &:hover,
   &:focus,
   &:active {
-    color: $accent-color;
-    background: $accent-bg;
+    background: darken($accent-color, 10%);
   }
 }

@@ -9,18 +9,20 @@ h1, .h1 {
     font-weight: 900;
 }
 h2, .h2 {
+    color: $dark-blue;
     font-size: 2.5rem;
     font-weight: 700;
     margin: 3rem 0 1.5rem;
 }
 h3, .h3 {
+    color: #999;
     font-size: 2rem;
     font-weight: 300;
     margin: 2rem 0 1rem;
 }
 
 h4, .h4 {
-    color: #ccc;
+    color: #ababab;
     font-size: 1.4rem;
     font-weight: 400;
     margin: 1rem 0;
@@ -34,14 +36,14 @@ p {
 
 a {
     border-bottom: 1px dashed #ccc;
-    color: darken($accent-color, 25%);
+    color: $light-blue;
     font-weight: 500;
     text-decoration: none;
 
     &:hover,
     &:focus,
     &:active {
-        background: rgba($accent-color, .25);
+        background: rgba($extra-light-blue, 100);
     }
 }
 

@@ -23,9 +23,11 @@
   }
 
   .app-title {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
+    font-style: italic;
     font-weight: 600;
-    color: $accent-color;
+    color: $dark-blue;
+    margin-left: 1rem;
   }
 
   .options {
@@ -39,6 +41,15 @@
   }
 
   @include breakpoint(mobileonly) {
-		.logo span { display: none; }
+    .app-logo img { height: 1.5rem; }
+		.app-title { display: none; }
+  }
+  
+  @include breakpoint(phablet) {
+    .app-logo img { height: 1.7rem; }
+	}
+  @include breakpoint(tablet) {
+    .app-logo img { height: auto; }
+		.app-title { font-size: 1.5rem; }
 	}
 }
