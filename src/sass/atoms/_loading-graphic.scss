@@ -1,7 +1,161 @@
 .loading-graphic {
 
-    svg {
-        max-height: 30rem;
-        max-width: 100%;
-    }
+  svg {
+    max-height: 30rem;
+    max-width: 100%;
+  }
+
+  $totalDuration: 4s;
+
+  #Cube1 {
+    animation: bringCube1 $totalDuration infinite;
+  }
+  #Cube2 {
+    animation: bringCube2 $totalDuration infinite;
+  }
+  #Cube3 {
+    animation: bringCube3 $totalDuration infinite;
+  }
+  #Cube4 {
+    animation: bringCube4 $totalDuration infinite;
+  }
+  #LeftTop{
+    animation: buildPackageSide1 $totalDuration infinite;
+  }
+  #RightBottom {
+    animation: buildPackageSide2 $totalDuration infinite;
+  }
+  #TopLeft {
+    animation: buildPackageSide3 $totalDuration infinite;
+  }
+  #Package {
+    transform-origin: 27% 27%;
+    animation: scalePackage $totalDuration infinite;
+  }
+  #TopRight {
+    animation: buildPackageSide3 $totalDuration infinite,
+              topRightColourChange $totalDuration infinite;
+  }
+  #LeftBottom {
+    animation: buildPackageSide1 $totalDuration infinite,
+              leftBottomColourChange $totalDuration infinite;
+  }
+  #RightTop {
+    animation: buildPackageSide2 $totalDuration infinite,
+              rightTopColourChange $totalDuration infinite;
+  }
+  #LoadingGraphic {
+    transform-origin: 50% 49.3%;
+    animation: rotate180 $totalDuration infinite;
+  }
+}
+@keyframes bringCube1 {
+  0%   {
+    opacity: 0;
+    transform: translate(16px, -7px);
+  }
+  10% {
+    opacity: 1;
+    transform: translate(16px, 18.9px);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes bringCube2 {
+  0% {
+    opacity: 0;
+    transform: translate(39px, 32px);
+  }
+  10% {
+    opacity: 0;
+    transform: translate(39px, 32px);
+  }
+  20% {
+    opacity: 1;
+    transform: translate(21.9px, 22.3px);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes bringCube3 {
+  0% {
+    opacity: 0;
+    transform: translate(-10px, 34px);
+  }
+  20% {
+    opacity: 0;
+    transform: translate(-10px, 34px);
+  }
+  30% {
+    opacity: 1;
+    transform: translate(10px, 22.2px);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes bringCube4 {
+  0% {
+    opacity: 0;
+    transform: translate(16px, -7px);
+  }
+  30% {
+    opacity: 0;
+    transform: translate(16px, -7px);
+  }
+  40% {
+    opacity: 1;
+    transform: translate(16px, 12px);
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes buildPackageSide1 {
+  0%   { opacity: 0; }
+  40%  { opacity: 0; }
+  45%  { opacity: 1; }
+  100% { opacity: 1; }
+}
+@keyframes buildPackageSide2 {
+  0%   { opacity: 0; }
+  45%  { opacity: 0; }
+  50%  { opacity: 1; }
+  100% { opacity: 1; }
+}
+@keyframes buildPackageSide3 {
+  0%   { opacity: 0; }
+  50%  { opacity: 0; }
+  55%  { opacity: 1; }
+  100% { opacity: 1; }
+}
+@keyframes leftBottomColourChange {
+  0%   { fill:#0F7DC2 }
+  55%  { fill:#0F7DC2 }
+  60%  { fill:#33A4E3 }
+  100% { fill:#33A4E3 }
+}
+@keyframes topRightColourChange {
+  0%   { fill:#D5E3EF }
+  60%  { fill:#D5E3EF }
+  65%  { fill:#B1C8D5 }
+  100% { fill:#B1C8D5 }
+}
+@keyframes rightTopColourChange {
+  0%   { fill:#77C2E4 }
+  65%  { fill:#77C2E4 }
+  70%  { fill:#1E3667 }
+  100% { fill:#1E3667 }
+}
+@keyframes scalePackage {
+  0%   { transform: translate(10px, 12px) scale(1, 1); }
+  70%  { transform: translate(10px, 12px) scale(1, 1); }
+  100% { transform: translate(10px, 12px) scale(1.83, 1.83); }
+}
+@keyframes rotate180 {
+  0%   { transform: rotate(0); }
+  70%  { transform: rotate(0); }
+  100% { transform: rotate(180deg); }
 }
