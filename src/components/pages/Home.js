@@ -7,6 +7,7 @@ const Home = () => (
     pageClass="home-page"
     pageTitle="Blue Prism UI Design Challenge"
     leadText="A demo project by Guillaume Simonin"
+    headerChildren={<Button to="/demo" label="View animation demo"/>}
   >
     <p className="lead-text">
       You mentioned your team workflow being based on Yarn, Webpack and React rather than my usual Vue.js + Gulp, so for the pupose of this demo I thought I'd get familiar with these technologies, and present you my animation using them.
