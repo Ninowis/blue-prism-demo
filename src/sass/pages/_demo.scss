@@ -1,6 +1,14 @@
 .demo-page {
-    .loading-graphic {
-        padding: 2rem 4rem;
-        display: block;
+  .loading-graphic {
+    padding: 2rem 4rem;
+    display: block;
+  }
+  .smaller .loading-graphic {
+    display: inline-block;
+
+    svg {
+      height: 6rem;
+      width: 6rem;
     }
+  }
 }
